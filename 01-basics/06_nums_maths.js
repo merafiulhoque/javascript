@@ -1,26 +1,26 @@
-// const score = 400
+const score = 400
 
-// const balance = new Number(100)
+const balance = new Number(100)
 
-// console.log(score);
-// console.log(balance);
+console.log(score);
+console.log(balance);
 
-// console.log(balance.toString())
-// console.log(typeof balance.toString())
+console.log(balance.toString())
+console.log(typeof balance.toString())
 
-// console.log(balance.toString().length);
+console.log(balance.toString().length);
 
 
-// const a = 22.33654525
-// console.log(a.toFixed(2))
+const a = 22.33654525
+console.log(a.toFixed(2))
 
-// console.log(a.toPrecision(5));
+console.log(a.toPrecision(5));
 
-// const b = 10000000000
+const b = 10000000000
 
-// console.log(b.toLocaleString('en-IN'))
+console.log(b.toLocaleString('en-IN'))
 
-//*********************Maths********************/
+*********************Maths********************/
 console.log(Math)
 console.log(Math.abs(-4));
 console.log(Math.round(6.57));
