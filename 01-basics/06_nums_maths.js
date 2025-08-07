@@ -20,7 +20,7 @@ const b = 10000000000
 
 console.log(b.toLocaleString('en-IN'))
 
-*********************Maths********************/
+//*********************Maths********************/
 console.log(Math)
 console.log(Math.abs(-4));
 console.log(Math.round(6.57));
@@ -28,5 +28,17 @@ console.log(Math.ceil(4.3));
 console.log(Math.floor(7.9))
 console.log(Math.min(5,2,6,4,5,4,8,4,2,0,5))
 console.log(Math.max(5,2,6,4,5,4,8,4,2,0,5))
-console.log(Math.random()*10);
+
+
+
+console.log(Math.random());
+// console.log(Math.random()*10);
+let newNumber = Math.random()*10
+
+console.log(Math.ceil(newNumber))
+
+const min = 20
+const max = 30
+
+console.log(Math.ceil(Math.random()*(max - min + 1) + min))
 
