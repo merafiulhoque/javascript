@@ -2,27 +2,27 @@
 
 const myarr = [1,2,5,1,4,5,7,9] //declaration type
 
-// console.log(myarr[1]);
+console.log(myarr[1]);
 
 
-//const newArr =  new Array(1,2,5,1,4,5,7) // another declaration type
+const newArr =  new Array(1,2,5,1,4,5,7) // another declaration type
 
-// array methods
+//array methods
 
-// myarr.push(8)
-// console.log(myarr)
-// myarr.pop()
+myarr.push(8)
+console.log(myarr)
+myarr.pop()
 
-// myarr.unshift(0)
-// console.log(myarr)
-// myarr.shift()
-// console.log(myarr)
+myarr.unshift(0)
+console.log(myarr)
+myarr.shift()
+console.log(myarr)
 
-// // console.log(myarr.includes(8));
-// // console.log(myarr.indexOf(9));
+console.log(myarr.includes(8));
+console.log(myarr.indexOf(9));
 
-// const newArr = myarr.join()
-// console.log(newArr);
+const newArr1 = myarr.join()
+console.log(newArr1);
 
 console.log("A" , myarr);
 
